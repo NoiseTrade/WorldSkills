@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//This class is used to declare variables and methods for the teams in the worldskills ladder
+
+
 public class Team {
 
     public String teamName;
@@ -44,7 +47,9 @@ public class Team {
         return score;
     }
 
-    public void setScore(int score) {
+    public int setScore(int score) {
         this.score = score;
+        return score;
     }
+
 }

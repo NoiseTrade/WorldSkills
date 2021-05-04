@@ -4,8 +4,6 @@ abstract public class Person {
     private String address;
     private String telephone;
 
-
-
     public String getName() {
 
         return name;
